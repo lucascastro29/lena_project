@@ -1,0 +1,162 @@
+.body { 
+  background-color: #e6e6e6;
+ z-index: 0;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+  
+.site_header{
+  z-index: 1;
+height: 250px;
+position:absolute;
+
+}
+.block{
+  z-index: 1;
+
+  background-Color:white;
+  height:150px;
+}
+
+.footers{
+
+   color:white;
+   
+}
+
+
+
+.buttonContactUs{
+   padding-right:30px ;
+  position: relative;
+  animation: buttons ease-in-out;
+  animation-duration:11s;
+  animation-delay: 2000ms;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+}
+
+@keyframes buttons {
+
+ 
+  0%{
+    padding-right:65px;
+
+  }  
+  
+  5%{
+    padding-right:30px;
+
+  } 
+  10%{
+    padding-right:30px;
+
+  }  
+  15%{
+    padding-right:65px;
+
+  }
+  20%{
+    padding-right:30px;
+
+  }
+  25%{
+    padding-right:30px;
+
+  }
+  30%{
+    padding-right:65px;
+
+  }  
+ 35%{
+    padding-right:30px;
+
+  }  
+  40%{
+    padding-right:30px;
+
+  }  
+ 45%{
+    padding-right:65px;
+
+  }  
+   50%{
+    padding-right:30px;
+
+  }  
+   55%{
+    padding-right:30px;
+
+  }  
+  60%{
+    padding-right:65px;
+
+  } 
+  65%{
+    padding-right:30px;
+
+  }  
+  70%{
+    padding-right:30px;
+
+  }
+  75%{
+    padding-right:65px;
+
+  }
+  80%{
+    padding-right:30px;
+
+  }
+  85%{
+    padding-right:30px;
+
+  }  
+ 90%{
+    padding-right:65px;
+
+  }  
+  95%{
+    padding-right:30px;
+
+  }  
+ 100%{
+    padding-right:30px;
+
+  }  
+ 
+  
+}
+
+.li::marker { color:red;
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+.footer{
+height: 600px;
+  background: url(https://www.sernac.cl/portal/619/articles-65488_imagen_01.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+.filterc{
+height: 600px;
+  backdrop-filter: blur(1.5px) sepia(40%) saturate(180%);
+
+    background-color:  rgba(0, 0, 0, 0.687);
+
+
+}
+.image{
+  width: 500px;
+  height: 500px;
+}
