@@ -4,9 +4,6 @@ import "leaflet/dist/leaflet.css";
 const Map = () => {
   return (
     <MapContainer
-      center={[51.505, -0.09]}
-      zoom={13}
-      scrollWheelZoom={false}
       style={{ height: 400, width: "100%",zIndex:"1" }}
     >
       <TileLayer

@@ -1,6 +1,6 @@
 export interface Iconmodel{
     href:string,
-    src:string,
+    src:any,
  width:number,
   height:number,
    alt:string,

@@ -2,6 +2,7 @@ import Carrousel from "../Comoponent/Carrousel";
 import lena1 from "../images/madera.jpg"
 import lena2 from "../images/madera2.jpg";
 import fuego from "../images/fuego.jpg";
+import style from "../styles/lindex.module.css";
 
 import { useEffect, useState } from "react";
 

@@ -5,7 +5,6 @@ export interface carrouselmodel {
   caption1: any;
   caption2: any;
   caption3: any;
-
-        sizewidth:number;
-        sizeheight:number
+  sizewidth: number;
+  sizeheight: number;
 }

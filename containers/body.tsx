@@ -7,13 +7,14 @@ import Products from "./Products";
 const Bodymain = () => {
   return (
     <div className={styles.body}>
-       <div className="col-12 d-block justify-content-center align-items-center">
-          <CarrouselContainer />
-             <Envios />
+      <div className="col-12 d-block justify-content-center align-items-center">
+        <CarrouselContainer />
 
-          <Products />
-          <InfLeneria />
-        </div>
+        <Products />
+        <Envios />
+
+        <InfLeneria />
+      </div>
     </div>
   );
 };

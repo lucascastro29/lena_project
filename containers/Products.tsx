@@ -30,29 +30,42 @@ const [ProductsArray, setProductsArray] = useState<any>([
 
     return (
       <div className="col-12 d-flex justify-content-center align-items-center">
-        <div className="row">
-          <div className="col-12" style={{textAlign:"center"}}>
-           Nuestra Leña
+        <div>
+          <div
+            className="col-12 d-flex"
+            style={{ textAlign: "center", fontSize: "40px" }}
+          >
+            Nuestros productos
           </div>
-          <div className="col-12 d-flex justify-content-center align-items-center">
-            {ProductsArray.map((element, index) => {
-              return (
-                <div className="col-5 productstyle" key={index}>
-                  <Product
-                    product_id={element.product_id}
-                    src={element.src}
-                    height={element.height}
-                    width={element.width}
-                    alt={element.alt}
-                    title={element.title}
-                    text={element.text}
-                  />
-                </div>
-              );
-            })}
+          <div className="col-12 d-flex" style={{ marginBottom: "40px" }}>
+            <div className="col-12 d-flex "
+              style={{
+                backgroundColor: "red",
+                height: "4px",
+                width: "100%",
+              }}
+            ></div>
+            </div>
+            <div className="col-12 d-flex justify-content-center align-items-center">
+              {ProductsArray.map((element, index) => {
+                return (
+                  <div className="col-5 productstyle" key={index}>
+                    <Product
+                      product_id={element.product_id}
+                      src={element.src}
+                      height={element.height}
+                      width={element.width}
+                      alt={element.alt}
+                      title={element.title}
+                      text={element.text}
+                    />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
+      
     );
 }
 export default Products;

@@ -1,7 +1,7 @@
 import { carrouselmodel } from "../models/carrouselmodel";
 import Images from "./images";
 import Carousel from "react-bootstrap/Carousel";
-
+import style from "../styles/lindex.module.css";
 
 const Carrousel=(props:carrouselmodel)=>{
 
@@ -15,6 +15,7 @@ const Carrousel=(props:carrouselmodel)=>{
             width={props.sizewidth}
             alt={""}
           />
+
           <Carousel.Caption>{props.caption1}</Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

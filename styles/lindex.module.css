@@ -140,7 +140,7 @@ position:absolute;
 }
 
 .footer{
-height: 600px;
+height: 690px;
   background: url(https://www.sernac.cl/portal/619/articles-65488_imagen_01.jpg);
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -149,14 +149,58 @@ background-size: cover;
 }
 
 .filterc{
-height: 600px;
-  backdrop-filter: blur(1.5px) sepia(40%) saturate(180%);
+height: 690px;
+  backdrop-filter: blur(1.5px) sepia(40%) saturate(250%);
 
-    background-color:  rgba(0, 0, 0, 0.687);
+    background-color:  rgba(0, 0, 0, 0.705);
+
+
+}
+.filtercs{
+  backdrop-filter: blur(4px) sepia(40%) saturate(400%);
+  height: 750;
+
 
 
 }
 .image{
   width: 500px;
   height: 500px;
+}
+.filter{
+  color: none;
+}
+.header_a{
+  text-decoration: none;
+  color:black;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 15px;
+  border-bottom:" solid 2px black"
+}
+.header_a:hover  {
+  
+  text-decoration: none;
+  color:black;
+}
+.header_a:hover   {
+  
+  text-decoration: none;
+  color:black;
+}
+.border_header{
+  border-bottom: 2px solid black;
+}
+
+.envios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100%;
+width: 100%;
+  background: url(https://www.sernac.cl/portal/619/articles-65488_imagen_01.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 }

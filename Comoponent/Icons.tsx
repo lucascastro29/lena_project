@@ -1,5 +1,6 @@
 import { Iconmodel } from "../models/iconmodels";
 import Images from "./images";
+import styles from "../styles/lindex.module.css";
 
 const Icons=(props:Iconmodel)=> {
   return (

@@ -1,5 +1,6 @@
 import { productmodel } from "../models/productmodel";
 import Images from "./images";
+import styles from "../styles/lindex.module.css";
 
 const Product=( props:productmodel)=>{
 

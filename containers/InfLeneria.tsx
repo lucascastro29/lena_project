@@ -1,4 +1,5 @@
 import Carrousel from "../Comoponent/Carrousel";
+import style from "../styles/lindex.module.css";
 
 const InfLeneria=()=>{
 
@@ -9,7 +10,16 @@ const InfLeneria=()=>{
           <p>Informacion de la empresa</p>
         </div>
         <div className="col-5">
-          <Carrousel src1={""} src2={""}src3={""} caption1={""} caption2={""} caption3={""} sizewidth={100} sizeheight={100}/>
+          <Carrousel
+            src1={""}
+            src2={""}
+            src3={""}
+            caption1={""}
+            caption2={""}
+            caption3={""}
+            sizewidth={100}
+            sizeheight={100}
+          />
         </div>
       </div>
     );
